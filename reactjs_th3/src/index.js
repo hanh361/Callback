@@ -4,9 +4,10 @@ import HomePage from './pages/home/HomePage';
 import HomePageState from './pages/home/HomePageState';
 import reportWebVitals from './reportWebVitals';
 import { createRoot } from "react-dom/client";
+import HomePageProp from './pages/home/HomePageProp';
 const container = document.getElementById("root");
 const root = createRoot(container);
-root.render(<HomePageState tab=" home " />);
+root.render(<HomePageProp tab=" home " />);
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals

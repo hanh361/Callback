@@ -1,10 +1,12 @@
 import React from 'react';
 
-const Input = () => {
+const Input = (props) => {
     return (
         <div>
-            <label>Usernamne</label>
-            <input placeholder='type your username' />
+            <label>{props.labelText}</label>
+            <input 
+            placeholder={props.placeholderText}
+            onChange={props.handleOnChange} />
         </div>
     );
 };

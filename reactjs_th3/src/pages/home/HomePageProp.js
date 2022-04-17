@@ -23,8 +23,6 @@ const HomePageProp = () => {
         }
         
     };
-    const test = ()=> {
-        alert("ok")
     }
     return (
         <div className="wrapper">

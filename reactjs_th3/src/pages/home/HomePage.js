@@ -71,7 +71,5 @@ import React, {
       </div>
     );
   };
-  
-  export default HomePage;
 
 export default HomePage;
